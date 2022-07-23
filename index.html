@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Alarm Clock</title>
+  </head>
+  <body>
+    <section class="container">
+      <div id="clock"></div>
+      <input
+        id="input"
+        onchange="setAlarmTime(this.value)"
+        name="alarmtime"
+        type="datetime-local"
+      />
+      <div class="controls">
+        <button onclick="setAlarm()" class="button set-alarm">Set Alarm</button>
+        <!-- <button onclick="clearAlarm()" class="button reset-alarm">
+          Reset Alarm
+        </button> -->
+      </div>
+      <div id="alarm-list"></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
