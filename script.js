@@ -20,7 +20,7 @@ const formatTime = time => {
 
 // Rendered the clock
 setInterval(function () {
-  const audio = new Audio('tiktikaudio.mp3');
+  const audio = new Audio('./tiktikaudio.mp3');
   const date = new Date();
   let hours = date.getHours();
   const zone = hours < 12 ? 'AM' : 'PM';
