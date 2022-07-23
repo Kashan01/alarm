@@ -30,7 +30,7 @@ setInterval(function () {
   let seconds = formatTime(date.getSeconds());
 
   clock.innerText = `${hours}:${minutes}:${seconds} ${zone}`;
-  // audio.play();
+  audio.play();
 }, 1000);
 
 // Get time value
