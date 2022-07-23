@@ -10,6 +10,7 @@ body {
   background-color: #000;
 }
 
+/* Container Styling  */
 .container {
   min-height: 100vh;
   display: flex;
@@ -22,6 +23,7 @@ input {
   margin: 0 100px;
 }
 
+/*Clock Styling  */
 #clock {
   font-family: 'Orbitron', sans-serif;
   width: 100vw;
@@ -39,6 +41,7 @@ input {
   -moz-text-fill-color: transparent;
 }
 
+/* Controls Styling */
 .controls {
   margin-top: 16px;
 }
@@ -56,6 +59,14 @@ input {
   background-color: #498afb;
 }
 
+.reset-alarm {
+  background-color: #ff3860;
+  margin: 5px 15px;
+  position: relative;
+  left: 20px;
+}
+
+/* Alarm List Styling */
 #alarm-list {
   margin: 15px 10px;
   padding: 30px;
@@ -75,13 +86,7 @@ input {
   font-size: 20px;
 }
 
-.reset-alarm {
-  background-color: #ff3860;
-  margin: 5px 15px;
-  position: relative;
-  left: 20px;
-}
-
+/* To hide an element  */
 .hidden {
   display: none;
 }
